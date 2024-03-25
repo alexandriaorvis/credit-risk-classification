@@ -23,7 +23,7 @@ Finally, a confusion matrix and classification report were used to demostrate th
     - Recall: 0.91
         This indicates that 91% of the truly high risk loans were included in the predicted high-risk group.
 -Overall the average precision of the model was 92%, and 99% of it was weighted based on the number of high risk and healthy loans. 
-
+-The model also produced an accuracy score of 0.99 indicating that it is highly accurate. 
 ## Summary
 
 The distribution of precision and recall scores for both categories indicates that model somewhat favors correctly classifying healthy loans, or in other terms, it is not likely to indicate that a true high risk loan is healthy. In the case of issuing lines of credit, favoring misclassification that results in declining potentially healthy loans is probably preffered over the reverse misclassification because it results in less risk for the credit issuer. 
